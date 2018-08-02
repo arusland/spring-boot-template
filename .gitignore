@@ -1,5 +1,8 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/backend/src/main/resources/public/static/
+/backend/src/main/resources/public/index.html
+/backend/target
 
 ### STS ###
 .apt_generated
