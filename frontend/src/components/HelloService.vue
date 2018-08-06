@@ -27,8 +27,8 @@ export default {
     callService () {
       this.clearAll()
 
-      service.callSimpleService('data')
-        .then(data => { this.apiResp = data.title })
+      service.callSimpleService('1234')
+        .then(data => { this.apiResp = data.name })
         .catch(error => { this.errorMessage = error })
     },
     callFailService () {
